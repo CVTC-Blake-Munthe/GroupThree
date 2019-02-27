@@ -1,18 +1,18 @@
-namespace GUI_Example.Migrations
+namespace AgileTesting.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<GUI_Example.GuestDBContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<AgileTesting.GuestDBContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(GUI_Example.GuestDBContext context)
+        protected override void Seed(AgileTesting.GuestDBContext context)
         {
             //  This method will be called after migrating to the latest version.
 

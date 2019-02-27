@@ -1,4 +1,4 @@
-﻿namespace GUI_Example
+﻿namespace AgileTesting
 {
     partial class Form1
     {
