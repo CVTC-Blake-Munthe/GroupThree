@@ -1,4 +1,4 @@
-﻿using AgileTesting.Models;
+﻿using GUI_Example.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AgileTesting
+namespace GUI_Example
 {
     class GuestDBContext : DbContext
     {

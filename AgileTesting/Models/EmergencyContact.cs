@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AgileTesting.Models
+namespace GUI_Example.Models
 {
     [Table("emergencyContacts")]
     public class EmergencyContact

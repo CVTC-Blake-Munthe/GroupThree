@@ -16,7 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace AgileTesting
+namespace GUI_Example
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

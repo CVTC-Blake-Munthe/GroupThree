@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AgileTesting.Properties
+namespace GUI_Example.Properties
 {
 
 
