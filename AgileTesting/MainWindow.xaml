@@ -19,9 +19,6 @@
                   SelectionChanged="CalendarGrid_SelectionChanged"
                   ColumnWidth="*">
             <DataGrid.Columns>
-                <DataGridCheckBoxColumn Header="Strike 1" Binding="{Binding isStrike1}"/>
-                <DataGridCheckBoxColumn Header="Strike 2" Binding="{Binding isStrike2}"/>
-                <DataGridCheckBoxColumn Header="Strike 3" Binding="{Binding isStrike3}"/>
                 <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}"/>
                 <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}"/>
                 <DataGridTemplateColumn Header="1" CellTemplate="{StaticResource DateTemplate}"/>
