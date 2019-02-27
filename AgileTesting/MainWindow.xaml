@@ -12,7 +12,12 @@
 
             </DataTemplate>
         </Grid.Resources>
-        <DataGrid Name="grdCalendar" ItemsSource="{Binding}" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="311" Margin="10,82,0,0" VerticalAlignment="Top" Width="970" SelectionChanged="CalendarGrid_SelectionChanged">
+        <DataGrid Name="grdCalendar" ItemsSource="{Binding}" AutoGenerateColumns="False" 
+                  HorizontalAlignment="Stretch" Height="311" Margin="10,82,0,0" 
+                  VerticalAlignment="Top" Width="970" 
+                  HorizontalContentAlignment="Stretch"
+                  SelectionChanged="CalendarGrid_SelectionChanged"
+                  ColumnWidth="*">
             <DataGrid.Columns>
                 <DataGridCheckBoxColumn Header="Strike 1" Binding="{Binding isStrike1}"/>
                 <DataGridCheckBoxColumn Header="Strike 2" Binding="{Binding isStrike2}"/>
