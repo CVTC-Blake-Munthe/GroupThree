@@ -16,5 +16,15 @@ namespace AgileTesting
         {
             InitializeComponent();
         }
+
+        private void tbNotes_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbGender_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
